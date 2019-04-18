@@ -1,0 +1,61 @@
+h1 {
+    color: black;
+    font-family: verdana;
+	text-align:center;
+
+}
+h3 {
+    color: black;
+    font-family: verdana;
+}
+h4 {
+    color: black;
+    font-family: courier;
+	text-align:center;
+	font-size: 150%;
+}
+p {
+    color: black;
+    font-family: courier;
+}
+
+img {
+    border-radius: 10px 0 0 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.backgroundP{
+    background: url("back1.png")
+}

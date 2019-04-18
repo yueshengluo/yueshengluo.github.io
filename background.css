@@ -1,0 +1,38 @@
+
+body {
+  background-image: url("back1.png");
+  background-color: #7bceeb;
+  background-position: center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+.myBackground {
+/*  background-image: url("https://68.media.tumblr.com/813ad89f1239967f776d461b5164960d/tumblr_ovexwuM73Z1u8gr0so1_1280.jpg");*/
+  background-color: rgba(255,255,255, 0.5);
+  background-position: center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: inherit;
+}
+.one {
+  background: url("http://acsweb.ucsd.edu/~yul411/back.jpg");
+   background-position: center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.two {
+  color: inherit;
+}
+

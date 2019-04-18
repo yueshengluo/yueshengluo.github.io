@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+
+<head>
+  <title>Tom Luo Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/css/foundation.min.css" />
+  <link rel="stylesheet" href="topbar.css">
+  <link rel="stylesheet" href="background.css">
+  <link rel="stylesheet" href="to_bottom.css">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="activityCard.css">
+  <link rel="import" href="activityCard.html">
+</head>
+
+<body>
+  <ul>
+      <li><a class="active" href="http://acsweb.ucsd.edu/~yul411/">Home</a></li>
+      <li><a href="http://acsweb.ucsd.edu/~yul411/about/about.html">About</a></li>
+      <li><a href="https://tomrigami.tumblr.com">Tumblr Page</a></li>
+      <li><a href="#section01"><span></span>Origami Projects</a></li>
+      <li><a href="http://acsweb.ucsd.edu/~yul411/link/link.html">Links</a></li>
+      <li><a href="http://acsweb.ucsd.edu/~yul411/about/critique.html">Critique</a></li>
+  </ul>
+
+  <!-- page scroll down-->
+  <section id="section05" class="demo">
+    <div class="jumbotron myBackground">
+      <h1>Tom Luo</h1>
+      <h4>design, program, origami</h4>
+    </div>
+    <a href="#section01"><span></span>Scroll</a>
+  </section>
+
+
+  <section id="section01" class="jumbotron two">
+    <h2>Origami Projects</h2>
+   
+    <div class="movie_card" id="bright">
+      <div class="info_section">
+        <div class="movie_header">
+          <h3>Origami Zodiac</h3>
+          <h5>individule work</h5>
+        </div>
+        <div class="movie_desc">
+          <h5 class="text">
+            Started from 2014, each year during the Chinese New Year, I fold the zodiac animal of that year, and each
+            year I try to make innovations in the way to present them
+          </h5>
+        </div>
+        <div class="movie_social">
+            <u>
+            <a href="http://acsweb.ucsd.edu/~yul411/origami_zodiac.html">
+                <li><i class="material-icons">Know More</i></li>
+            </a> 
+              </u>
+        </div>
+      </div>
+      <div class="blur_back bright_back"></div>
+    </div>
+
+     <!--------------------------------------------------->
+    <div class="movie_card" id="bright">
+      <div class="info_section">
+        <div class="movie_header">
+          <h3>Display Case</h3>
+          <h5>Origami Folders at UCSD</h5>
+        </div>
+        <div class="movie_desc">
+          <h5 class="text">
+            We held two display case event in Price Center. Everything in the dispaly is made from Origami, with the first year display
+            featuring an aquarium theme and the second year a cliff villiage theme.
+            
+          </h5>
+        </div>
+        <div class="movie_social">
+        </div>
+      </div>
+      <div class="blur_back display_case"></div>
+    </div>
+   <!--------------------------------------------------->
+    <div class="movie_card" id="bright">
+      <div class="info_section">
+        <div class="movie_header">
+          <h3>Stop Motion Film</h3>
+          <h5>Origami Folders at UCSD</h5>
+        </div>
+        <div class="movie_desc">
+          <h5 class="text">
+            Origami stop motion film called "Paperword". The film tells about a story of an origami folder falls into the world of Paper, 
+            where everything from the sets to the characters are made with origami. He uses his folding skills to save the paper world against 
+            a villan.
+          </h5>
+        </div>
+        <div class="movie_social">
+          <u>
+          <a href="https://www.youtube.com/watch?v=NJnANB1ROno&t=664s">
+              <li><i class="material-icons">Watch Here</i></li>
+          </a> 
+            </u>
+      </div>
+      </div>
+      <div class="blur_back stop_motion"></div>
+    </div>
+    <script>
+      var link = document.querySelector('link[rel="import"]');
+      var content = link.import;
+  
+      // Grab DOM from warning.html's document.
+      var el = content.querySelector('.doc');
+  
+      document.body.appendChild(el.cloneNode(true));
+    </script>
+  </section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.1/js/foundation.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/plugins/ScrollToPlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/plugins/EaselPlugin.min.js"></script>
+<script src="animate-scroll.js"></script>
+<script src="to_bottom.js"></script>
+</body>
+
+</html>
