@@ -42,19 +42,52 @@
       -->
 
       <div class="container dynamic-grid">
-        <article class="grid-item content-box" ng-repeat="(gridKey, gridItem) in gridItems | filter:filterBySearch">
-          <div class="inner">
-            <img class="content-box-thumb" src="{{ gridItem.img }}" alt="tech image" />
-            <h1 class="content-box-header">
-              {{ gridItem.headerText }}
-            </h1>
-            <p class="content-box-blurb">
-              {{ gridItem.blurbText }}
-            </p>
-            <a class="readmore-link" href="#" ng-click="toggleBlurb($event)">read more</a>
-          </div>
-        </article><!-- /.content-box -->
+        <html>
+  <head>
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.min.js"></script>
+
+  </head>
+  <body>
+
+    <h1>Gallery made with nanogallery2</h1>
+
+    <div ID="origamiZodiac" data-nanogallery2='{
+        "userID": "157534806@N08",
+        "kind": "flickr",
+        "photoset": "72157704652324282",
+        "thumbnailOpenOriginal": true,
+        "thumbnailWidth": "auto",
+        "thumbnailHeight": "400",
+        "thumbnailBorderVertical": 0,
+        "thumbnailBorderHorizontal": 0,
+        "colorScheme": {
+          "thumbnail": {
+            "background": "rgba(230,18,18,0.05)"
+          }
+        },
+        "thumbnailDisplayTransition": "scaleUp",
+        "thumbnailDisplayTransitionDuration": 1000,
+        "thumbnailLabel": {
+          "descriptionMultiLine": true
+        },
+        "allowHTMLinData": true,
+        "thumbnailHoverEffect2": "imageScale150|imageScale150|imageScale150",
+        "galleryDisplayMode": "pagination",
+        "galleryMaxRows": 3,
+        "thumbnailAlignment": "center",
+        "thumbnailGutterWidth": 5,
+        "thumbnailGutterHeight": 5
+      }'>
+
+    </div>
+    
+  </body>
+</html>
       </div><!-- /.dynamic-grid -->
     </div><!-- /#GridCtrl -->
   </div><!-- /#contentBoxApp -->
