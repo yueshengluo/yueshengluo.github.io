@@ -162,7 +162,7 @@ html, body {
   background-size: 50% 50%;
 }
 .display_case {
-  background: url("http://acsweb.ucsd.edu/~yul411/origami_photos/display.jpg");
+  background: url("display.jpg");
 }
 .stop_motion {
   background: url("http://acsweb.ucsd.edu/~yul411/origami_photos/stop.jpg");
