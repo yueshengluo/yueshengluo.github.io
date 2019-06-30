@@ -153,18 +153,17 @@ html, body {
     display: inline-grid;
   }
 }
-
-.my_designs {
-  background: url("dog.jpg");
+.my_design {
+  background: url("911.jpg");
 }
 
-.bright_back {
+.origami_zodiac {
   background: url("http://acsweb.ucsd.edu/~yul411/origami_photos/dog.jpg");
   background-size: 50% 50%;
 }
 .display_case {
-  background: url("display.jpg");
+  background: url("http://acsweb.ucsd.edu/~yul411/origami_photos/display.jpg");
 }
 .stop_motion {
-  background: url("stop.jpg");
+  background: url("http://acsweb.ucsd.edu/~yul411/origami_photos/stop.jpg");
 }
