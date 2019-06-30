@@ -159,7 +159,7 @@ html, body {
 }
 
 .bright_back {
-  background: url("dog.jpg");
+  background: url("http://acsweb.ucsd.edu/~yul411/origami_photos/dog.jpg");
   background-size: 50% 50%;
 }
 .display_case {
