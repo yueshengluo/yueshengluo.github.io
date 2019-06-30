@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Multi-Height Grid Layout</title>
+  <title>Origami Zodiac</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -29,26 +29,21 @@
 <body>
 
   <!-- JJ -->
-  <div id="contentBoxApp" ng-app="contentBoxApp">
-    <div id="GridCtrl" ng-controller="GridCtrl">
 
-      <div class="toolbar">
-        <ul>
-          <li><a class="active" href="./index.html">Home</a></li>
-          <li><a href="./about/about.html">About</a></li>
-          <li><a href="https://tomrigami.tumblr.com">Tumblr Page</a></li>
-          <li><a href="./index.html#section01"><span></span>Origami Projects</a></li>
-          <li><a href="./link/link.html">Links</a></li>
-          <li><a href="./about/critique.html">Critique</a></li>
-          <div class="toolbar-item form-field">
-            <input type="text" name="filter" placeholder="phrase to filter" ng-model="search" />
-          </div>
-        </ul>
-      </div>
-      -->
+  <ul>
+    <li><a class="active" href="./index.html">Home</a></li>
+    <li><a href="./about/about.html">About</a></li>
+    <li><a href="https://tomrigami.tumblr.com">Tumblr Page</a></li>
+    <li><a href="./index.html#section01"><span></span>Origami Projects</a></li>
+    <li><a href="./link/link.html">Links</a></li>
+    <li><a href="./about/critique.html">Critique</a></li>
+    <div class="toolbar-item form-field">
+      <input type="text" name="filter" placeholder="phrase to filter" ng-model="search" />
+    </div>
+  </ul>
 
-      <div class="container dynamic-grid"></div>
-    <div ID="origamiZodiac" data-nanogallery2='{
+
+  <div ID="origamiZodiac" data-nanogallery2='{
         "userID": "157534806@N08",
         "kind": "flickr",
         "photoset": "72157704652324282",
@@ -76,14 +71,8 @@
         "thumbnailGutterHeight": 5
       }'>
 
-    </div>
-      </div><!-- /.dynamic-grid -->
-    </div><!-- /#GridCtrl -->
-  </div><!-- /#contentBoxApp -->
-  <!-- SDG -->
-  <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js'></script>
+  </div>
 
-  <script src="./multi_height_grid.js"></script>
 
 </body>
 
