@@ -308,10 +308,23 @@ $(".card").tilt({
   maxTilt: 5
 });
 
-$(document).ready(function() {
-    $('.popup-youtube, .popup-vimeo, .popup-gmaps, .play-button').magnificPopup({
-        type: 'iframe',
-        mainClass: 'mfp-fade',
-        preloader: true,
-    });
-});
+$('.button').magnificPopup({
+    items: {
+           src: 'https://www.youtube.com/watch?v=zyjmikbQAs0'
+       },
+    type: 'iframe',
+    iframe: {
+              markup: '<div class="mfp-iframe-scaler">'+
+                      '<div class="mfp-close"></div>'+
+                      '<iframe class="mfp-iframe" frameborder="0" allowfullscreen></iframe>'+
+                      '</div>', 
+          patterns: {
+              youtube: {
+                    index: 'youtube.com/', 
+                    id: 'v=', 
+                    src: '//www.youtube.com/embed/%id%?autoplay=1' 
+                  }
+               },
+               srcAction: 'iframe_src', 
+       }
+  });
