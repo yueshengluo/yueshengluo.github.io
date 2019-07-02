@@ -1,0 +1,9 @@
+a {
+  outline: none !important;
+}
+
+.popup-youtube .youtube-click {
+  outline: none;
+  width: 50px;
+  height: 50px;
+}

@@ -307,3 +307,11 @@ $(".card").tilt({
   maxGlare: .2,
   maxTilt: 5
 });
+
+$(document).ready(function() {
+    $('.popup-youtube, .popup-vimeo, .popup-gmaps, .play-button').magnificPopup({
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        preloader: true,
+    });
+});
